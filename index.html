@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <title>LeaderBoard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css"
+      integrity="sha512-p++g4gkFY8DBqLItjIfuKJPFvTPqcg2FzOns2BNaltwoCOrXMqRIOqgWqWEvuqsj/3aVdgoEo2Y7X6SomTfUPA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css/style.css" />
+
+    <link rel="stylesheet" media="(max-width:769px) " href="Css/Tablet.css" />
+    <link rel="stylesheet" media="(max-width:426px) " href="Css/Mobile-L.css" />
+    <link rel="stylesheet" media="(max-width:376px) " href="Css/Mobile-M.css" />
+    <link rel="stylesheet" media="(max-width:321px) " href="Css/Mobile-S.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="Logo" width="auto" height="60" />
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- <div class="container text-center"> -->
+      <!-- <div class="row border text-center mx-auto"> -->
+      <div class="container-sm">
+        <div class="row text-center">
+          <div class="row" style="display: block">
+            <img src="img/blue-dash.png" alt="dash line" class="dashLineTag" />
+          </div>
+          <div class="row">
+            <h3>LeaderBoard</h3>
+          </div>
+          <div class="row text-center button-container">
+            <div class="col" id="btnmargin">
+              <a
+                href="#"
+                class="btn btn-primary active px-5 rounded-pill"
+                aria-current="page"
+                >Stake</a
+              >
+            </div>
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-secondary disabled px-5 rounded-pill"
+              >
+                UnStake
+              </button>
+            </div>
+          </div>
+          <div class="row text-center my-3">
+            <h4>
+              <span
+                ><img src="img/box-1.png" alt="" class="appSmallImg"
+              /></span>
+              <span style="font-weight: 600" class="stake"
+                >Staking Balance:</span
+              >
+              <span style="font-size: 29px; font-weight: 500" class="lmy"
+                >850LMY</span
+              >
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-md-6 mx-auto text-center"
+        style="background-color: #f8f8f8"
+        id="divChange"
+      >
+        <div
+          class="row h-25 my-2 card-container"
+          style="background-color: #0600ff; color: white"
+        >
+          <div class="col-2 numberColumn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-up svgTag"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+              />
+            </svg>
+            <span class="leaderBoardSpan">1</span>
+            <img
+              src="img/man.png"
+              alt=""
+              class="my-2 imgHeight"
+              height="40px"
+              width="auto"
+            />
+          </div>
+
+          <div class="col-6">
+            <span class="btcAddress" id="overflowed"
+              >1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX</span
+            >
+          </div>
+          <div class="col-2">
+            <span class="spanSize">1500 <sub>LMY</sub></span>
+          </div>
+
+          <div class="col-2">
+            <img
+              src="img/small-whale.png"
+              alt="man"
+              width="auto"
+              height="30"
+              style="text-align: end"
+              class="imgboard"
+            />
+          </div>
+        </div>
+
+        <div
+          class="row h-25 my-2 card-container"
+          style="background-color: #ff8228; color: white"
+        >
+          <div class="col-2 numberColumn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-dash svgTag"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"
+              />
+            </svg>
+            <span class="leaderBoardSpan">2</span>
+            <img
+              src="img/man.png"
+              alt=""
+              class="my-2 imgHeight"
+              height="40px"
+              width="auto"
+            />
+          </div>
+
+          <div class="col-6">
+            <span class="btcAddress">1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX</span>
+          </div>
+          <div class="col-2">
+            <span class="spanSize">1500 <sub>LMY</sub></span>
+          </div>
+
+          <div class="col-2" style="align-items: end">
+            <img
+              src="img/small-whale.png"
+              alt="man"
+              width="auto"
+              height="30"
+              style="text-align: end"
+              class="imgboard"
+            />
+          </div>
+        </div>
+
+        <div
+          class="row h-25 my-2 card-container"
+          style="background-color: #ffca28; color: white"
+        >
+          <div class="col-2 numberColumn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-compact-down svgTag"
+              viewBox="0 0 16 16"
+              color="blue"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+              />
+            </svg>
+            <span class="leaderBoardSpan">3</span>
+            <img
+              src="img/man.png"
+              alt=""
+              class="my-2 imgHeight"
+              height="40px "
+              width="auto"
+            />
+          </div>
+
+          <div class="col-6">
+            <span class="btcAddress">1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX</span>
+          </div>
+          <div class="col-2">
+            <span class="spanSize">1500 <sub>LMY</sub></span>
+          </div>
+
+          <div class="col-2" style="align-items: end">
+            <img
+              src="img/small-whale.png"
+              alt="man"
+              width="auto"
+              height="30"
+              style="text-align: end svgTag"
+              class="imgboard"
+            />
+          </div>
+        </div>
+        <hr />
+
+        <div
+          class="row h-25 my-2 card-container"
+          style="background-color: #a3a3a3; color: white"
+        >
+          <div class="col-2 numberColumn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-up svgTag"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+              />
+            </svg>
+            <span class="leaderBoardSpan">4</span>
+            <img
+              src="img/man.png"
+              alt=""
+              class="my-2 imgHeight"
+              height="40px"
+              width="auto"
+            />
+          </div>
+
+          <div class="col-6">
+            <span class="btcAddress">1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX</span>
+          </div>
+          <div class="col-2">
+            <span class="spanSize">1500 <sub>LMY</sub></span>
+          </div>
+
+          <div class="col-2" style="align-items: end">
+            <img
+              src="img/small-whale.png"
+              alt="man"
+              width="auto"
+              height="30"
+              style="text-align: end svgTag"
+              class="imgboard"
+            />
+          </div>
+        </div>
+
+        <div
+          class="row h-25 my-2 card-container"
+          style="background-color: #a3a3a3; color: white"
+        >
+          <div class="col-2 numberColumn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-up svgTag"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+              />
+            </svg>
+            <span class="leaderBoardSpan">5</span>
+            <img
+              src="img/man.png"
+              alt=""
+              class="my-2 imgHeight"
+              height="40px"
+              width="auto"
+            />
+          </div>
+
+          <div class="col-6">
+            <span class="btcAddress">1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX</span>
+          </div>
+          <div class="col-2">
+            <span class="spanSize">1500 <sub>LMY</sub></span>
+          </div>
+
+          <div class="col-2" style="align-items: end">
+            <img
+              src="img/small-whale.png"
+              alt="man"
+              width="auto"
+              height="30"
+              style="text-align: end"
+              class="imgboard"
+            />
+          </div>
+        </div>
+
+        <div
+          class="row h-25 my-2 card-container"
+          style="background-color: #a3a3a3; color: white"
+        >
+          <div class="col-2 numberColumn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-up svgTag"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+              />
+            </svg>
+            <span class="leaderBoardSpan">6</span>
+            <img
+              src="img/man.png"
+              alt=""
+              class="my-2 imgHeight"
+              height="40px"
+              width="auto"
+            />
+          </div>
+
+          <div class="col-6">
+            <span class="btcAddress">1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX</span>
+          </div>
+          <div class="col-2">
+            <span class="spanSize">1500 <sub>LMY</sub></span>
+          </div>
+
+          <div class="col-2" style="align-items: end">
+            <img
+              src="img/small-whale.png"
+              alt="man"
+              width="auto"
+              height="30"
+              style="text-align: end"
+              class="imgboard"
+            />
+          </div>
+        </div>
+
+        <div
+          class="row h-25 my-2 card-container"
+          style="background-color: #a3a3a3; color: white"
+        >
+          <div class="col-2 numberColumn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-up svgTag"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+              />
+            </svg>
+            <span class="leaderBoardSpan">7</span>
+            <img
+              src="img/man.png"
+              alt=""
+              class="my-2 imgHeight"
+              height="40px"
+              width="auto"
+            />
+          </div>
+
+          <div class="col-6">
+            <span class="btcAddress">1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX</span>
+          </div>
+          <div class="col-2">
+            <span class="spanSize">1500 <sub>LMY</sub></span>
+          </div>
+
+          <div class="col-2" style="align-items: end">
+            <img
+              src="img/small-whale.png"
+              alt="man"
+              width="auto"
+              height="30"
+              style="text-align: end"
+              class="imgboard"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+      <!-- </div> -->
+    </main>
+
+    <section>
+      <div class="container text-center">
+        <h1 id="h1">EtherScan Top LMY Holders</h1>
+      </div>
+
+      <div class="container d-flex flex-wrap">
+        <div class="col card m-2 hoverclass" style="width: 18rem">
+          <img
+            src="img/box-1.png"
+            class="card-img-top mx-auto"
+            alt="Apprentice"
+          />
+          <div class="card-body text-center">
+            <h6>Apprentice</h6>
+            <p class="card-text">1 to 2,00,000LMY</p>
+            <span class="earnings">Earn 0.5%</span>
+          </div>
+        </div>
+        <div class="col card m-2" style="width: 18rem">
+          <img
+            src="img/box-2.png"
+            class="card-img-top mx-auto"
+            alt="Journeyman"
+          />
+          <div class="card-body text-center">
+            <h6>Journeyman</h6>
+            <p class="card-text">2,00,001 - 5,00,000LMY</p>
+            <span class="earnings">Earn 1%</span>
+          </div>
+        </div>
+        <div class="col card m-2" style="width: 18rem">
+          <img src="img/box-3.png" class="card-img-top mx-auto" alt="Master" />
+          <div class="card-body text-center">
+            <h6>Master</h6>
+            <p class="card-text">5,00,001 - 20,00,000LMY</p>
+            <span class="earnings">Earn 1.5%</span>
+          </div>
+        </div>
+        <div class="col card m-2" style="width: 18rem">
+          <img src="img/box-4.png" class="card-img-top mx-auto" alt="Whale" />
+          <div class="card-body text-center">
+            <h6>Whale</h6>
+            <p class="card-text">20,00,000 - 50,00,000LMY</p>
+            <span class="earnings">Earn 2%</span>
+          </div>
+        </div>
+        <div class="col card m-2" style="width: 18rem">
+          <img src="img/box-5.png" class="card-img-top mx-auto" alt="Narwhal" />
+          <div class="card-body text-center">
+            <h6>Narwhal</h6>
+            <p class="card-text">50,00,000 - 1,00,00,000</p>
+            <span class="earnings">Earn 2.5%</span>
+          </div>
+        </div>
+      </div>
+
+      <footer class="text-center" style="background-color: black; color: white">
+        <h2 id="footerFont" style="font-size: medium; margin: inherit">
+          &copy 2022 Lunch Money. All Rights Reserved.
+        </h2>
+      </footer>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function myFunction(x) {
+        if (x.matches) {
+          let a = document.querySelectorAll(".btcAddress");
+          a.forEach((element) => {
+            // console.log(element.innerText);
+
+            let text = element.innerText;
+            let newText = text.slice(0, 17);
+
+            let result = newText.concat("...");
+            element.innerText = result;
+          });
+
+          let footerFont = document.getElementById("footerFont");
+          footerFont.style.fontSize = "medium";
+        } else {
+          let a = document.querySelectorAll(".btcAddress");
+          a.forEach((element) => {
+            // console.log(element.innerText);
+            let text = element.innerText;
+
+            element.innerText = text;
+          });
+        }
+      }
+
+      var x = window.matchMedia("(max-width: 426px)");
+      myFunction(x); // Call listener function at run time
+      x.addListener(myFunction); // Attach listener function on state changes
+    </script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

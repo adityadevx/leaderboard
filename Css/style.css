@@ -1,0 +1,61 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 48px;
+}
+
+.button-container {
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    width: fit-content;
+}
+
+h3 {
+    font-size: 64px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+h4 {
+    font-size: 42px;
+    font-weight: 500;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+h1 {
+    font-size: 69px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+}
+
+.card img {
+    margin-top: -12px;
+    height: 159px;
+    width: auto;
+}
+
+h6 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.earnings {
+    background-color: #0ec50e;
+    padding: 0px 27px;
+    border-radius: 10px;
+}
+
+.btcAddress {
+    font-weight: 400;
+}
+
+.appSmallImg {
+    height: 64px;
+    margin-top: -18px;
+}
+
+.dashLineTag {
+    height: 10px;
+    width: auto;
+}
